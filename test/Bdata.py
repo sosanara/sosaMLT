@@ -4,12 +4,12 @@ from os.path import join
 
 import numpy as np
 
-data_name = 'data908_10.csv'
+data_name = 'data1930.csv'
 
 width = 39
 height = 52
 
-n_row = 908
+n_row = 1930
 n_type = 5
 
 class Bunch(dict):

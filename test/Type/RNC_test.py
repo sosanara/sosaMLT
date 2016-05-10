@@ -14,7 +14,7 @@ import Bdata
 
 bald = Bdata.load_data()
 
-x, y = bald.data[:-5], bald.target[:-5]
+x, y = bald.data[:], bald.target[:]
 
 
 clf = RadiusNeighborsClassifier(radius=radius)
